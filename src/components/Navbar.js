@@ -26,10 +26,10 @@ function Navbar() {
             <div className='navbar-container'>
                 {button && <Button buttonStyle='btn--outline'>Github</
                 Button>}
-                <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 {button && <Button buttonStyle='btn--outline'>Resume</
                 Button>}
-                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 {button && <Button buttonStyle='btn--outline'>Linkedin</
                 Button>}
             </div>
