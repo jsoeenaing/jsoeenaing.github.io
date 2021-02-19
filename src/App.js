@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import profileImage from './img/profilepic.png';
 import './App.css';
 
@@ -10,6 +9,14 @@ function App() {
       <h2>Computing Science Student at Simon Fraser University</h2>
     </div>
   );
+}
+
+function Navbar() {
+  return (
+        <link to="/" className="navbar-logo">
+          <button>Github</button>
+        </link>
+  )
 }
 
 export default App;
