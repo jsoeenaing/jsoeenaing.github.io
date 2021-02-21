@@ -1,5 +1,14 @@
 
-.App {
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  color: black;
+  line-height: 20px;
+}
+
+.subtitle {
   text-align: center;
   font-size: 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -8,10 +17,21 @@
   line-height: 20px;
 }
 
+.headerImage {
+  align-content: center;
+  Justify-Content: centre;
+  width: 320px;
+  height: 300px;
+  margin-bottom: 20px;
+
+  display:flex;
+}
+
 body {
   margin-top:0;
   background-image: url('./img/linesbackground.png'); 
   height:100%;;
   scroll-behavior: smooth;
   line-height: 20px;
+  text-align:center;
 }

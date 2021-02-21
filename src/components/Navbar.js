@@ -17,11 +17,11 @@ function Navbar() {
                 <NavBarItem link={'https://github.com/jsoeenaing'}>
                     Github
                 </NavBarItem>
-                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <NavBarItem link={'https://jsoeenaing.github.io/resume/'}>
                     Resume
                 </NavBarItem>
-                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <NavBarItem link={'https://www.linkedin.com/in/jsoeenaing'}>
                     Linkedin
                 </NavBarItem>

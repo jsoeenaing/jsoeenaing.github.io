@@ -1,4 +1,5 @@
 import React from 'react';
+import {Header} from './components/header';
 import profileImage from './img/profilepic.png';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -6,16 +7,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <img src={profileImage} alt="profile-image"/>
-      <h1>J Soe Naing</h1>
-      <h2>Computing science student at Simon Fraser University</h2>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact />
-        </Switch>
-        </Router>
+      <Header/>
+        <Navbar/>
     </div>
   );
 }
