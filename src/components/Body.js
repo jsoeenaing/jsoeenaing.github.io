@@ -14,7 +14,8 @@ export function Body() {
                     </CustomContainer>
                 </div>
                 <div className="col-md">
-                    <CustomContainer title={'Contact Me'}>
+                    <CustomContainer title={'Contact Me'}><br/>
+                    &nbsp;
                         <a href="mailto:jnaing@sfu.ca">jnaing@sfu.ca</a>
                         <br/>
                         <br/>
