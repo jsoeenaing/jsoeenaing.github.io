@@ -61,7 +61,7 @@ export function Body() {
                                 <li>Simon Fraser University, Burnaby, British Columbia</li>
                             </ul>
                         
-                        <p>BSc. Biological Science   <i>(September 2013 - December 2019)</i></p>
+                        <p>BSc. Biological Science   <i>(September 2013 - December 2018)</i></p>
                             <ul>
                                 <li>Simon Fraser University, Burnaby, British Columbia</li>
                             </ul>
