@@ -1,87 +1,80 @@
 
 li {
   font-size: 17px;
-  color:rgb(94, 93, 93) !important;
+  color:rgb(109, 109, 109);
   list-style-type:circle;
 }
 
 .title {
   text-align: center;
   font-size: 100px;
-  font-weight:bold;
+  font-weight:bolder;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:white;
-  line-height: 100px;
-  padding-top: 200px;
+  line-height: 200px;
+  padding-top: 250px;
+  position: sticky;
 }
 
 .subtitle {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   font-weight:lighter;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgba(252, 252, 252, 0.829) ;
-  line-height: 100px;
+  line-height: 50px;
+  position: sticky;
 }
 
 .containerTitle {
   font-size: 35px;
-  font-weight: bold;
-  color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  color:rgb(34, 34, 34);
+  text-align: center;
+  text-decoration-line: underline;
 }
 
 .containerText {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 17px;
-  color: black;
+  font-weight:lighter;
+  color: rgb(34, 34, 34);
 }
 
 .containerLink {
   
 }
 
-.date {
-  font-style: italic !important;
-  color: #868690;
-}
-
 .navBarItemSpacing {
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 10px;
 }
 
 .navBarItemIcon {
-  margin-bottom: 1px;
+  margin-bottom: -2px;
   margin-top: 1px;
 }
 
-html, body {
+body {
   margin: 0;
   scroll-behavior: smooth;
   background-position: center;
   background-color: white;
+  
 }
 
 .jumbotron {
-  background-color:black !important;
+  background-color:rgb(255, 255, 255) !important;
   padding-bottom: 0px !important;
 }
 
 .customContainer {
   background-color: white !important;
-  font-family:Arial, Helvetica, sans-serif;
-  font-style:oblique;
-  color:rgb(94, 93, 93) !important;
+  font-style:normal;
   background-size: 100%;
-  margin: 30px 30px 30px;
+  margin: 50px 30px 30px;
   font-size: 30px;
-}
+  padding-left: 10px;
 
-.firstContainer {
-  background-color: white !important;
-  font-family:Arial, Helvetica, sans-serif;
-  font-style:oblique;
-  color:rgb(94, 93, 93) !important;
-  background-size: 100%;
-  margin: 30px 30px 30px;
-  font-size: 30px;
 }

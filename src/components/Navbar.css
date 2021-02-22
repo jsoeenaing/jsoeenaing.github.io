@@ -1,11 +1,12 @@
 .navbar {
     background: transparent;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.8rem;
     position: sticky;
+    padding-right: 15px;
   }
   
   .navbar-container {
