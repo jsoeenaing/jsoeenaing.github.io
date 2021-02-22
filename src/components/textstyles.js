@@ -20,7 +20,3 @@ export function ContainerText(props) {
 export function ContainerLink(props) {
     return <span className={'containerLink'}>{props.children}</span>;
 }
-
-export function Date(props) {
-    return <span className={'containerText date'}>{props.children}</span>;
-}

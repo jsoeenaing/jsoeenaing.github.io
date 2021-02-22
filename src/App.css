@@ -1,13 +1,14 @@
 
 li {
   font-size: 17px;
-  color:rgb(109, 109, 109);
+  color:black;
   list-style-type:circle;
+  padding-right: 20px;
 }
 
 .title {
   text-align: center;
-  font-size: 100px;
+  font-size: 90px;
   font-weight:bolder;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:white;
@@ -26,6 +27,18 @@ li {
   position: sticky;
 }
 
+.navBarItemIcon {
+  margin-bottom: -2px;
+  margin-top: 1px;
+}
+
+body {
+  margin:5px;
+  scroll-behavior: smooth;
+  background-position: center;
+  background-color: white;
+}
+
 .containerTitle {
   font-size: 35px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,6 +46,7 @@ li {
   color:rgb(34, 34, 34);
   text-align: center;
   text-decoration-line: underline;
+  text-decoration-color: rgb(56, 56, 56);
 }
 
 .containerText {
@@ -46,35 +60,49 @@ li {
   
 }
 
-.navBarItemSpacing {
-  padding-left: 15px;
-  padding-right: 10px;
-}
-
-.navBarItemIcon {
-  margin-bottom: -2px;
-  margin-top: 1px;
-}
-
-body {
-  margin: 0;
-  scroll-behavior: smooth;
-  background-position: center;
-  background-color: white;
-  
-}
-
-.jumbotron {
-  background-color:rgb(255, 255, 255) !important;
-  padding-bottom: 0px !important;
-}
-
 .customContainer {
   background-color: white !important;
-  font-style:normal;
-  background-size: 100%;
-  margin: 50px 30px 30px;
   font-size: 30px;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-top: 2px solid rgb(117, 117, 117);
+  border-bottom: 2px solid rgb(117, 117, 117);
+}
 
+.altContainer {
+  background-color: rgb(226, 226, 226) !important;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.firstContainer {
+  background-color: white !important;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid rgb(117, 117, 117);
+}
+
+.boxContainer {
+  background-color: white !important;
+  margin: 5px 500px 20px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-radius:100pt;
+  border: 1px solid rgb(150, 150, 150) !important;
+}
+
+.picContainer {
+  background-color: white !important;
+  text-align: center;
+  margin: 5px 500px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
