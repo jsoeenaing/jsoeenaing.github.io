@@ -1,37 +1,87 @@
 
+li {
+  font-size: 17px;
+  color:rgb(94, 93, 93) !important;
+  list-style-type:circle;
+}
+
 .title {
   text-align: center;
-  font-size: 40px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-variant: small-caps;
-  color: black;
-  line-height: 20px;
+  font-size: 100px;
+  font-weight:bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+  line-height: 100px;
+  padding-top: 200px;
 }
 
 .subtitle {
   text-align: center;
-  font-size: 20px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-variant: small-caps;
+  font-size: 40px;
+  font-weight:lighter;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(252, 252, 252, 0.829) ;
+  line-height: 100px;
+}
+
+.containerTitle {
+  font-size: 35px;
+  font-weight: bold;
+  color:black;
+}
+
+.containerText {
+  font-size: 17px;
   color: black;
-  line-height: 20px;
 }
 
-.headerImage {
-  align-content: center;
-  Justify-Content: centre;
-  width: 320px;
-  height: 300px;
-  margin-bottom: 20px;
+.containerLink {
 
-  display:flex;
 }
 
-body {
-  margin-top:0;
-  background-image: url('./img/linesbackground.png'); 
-  height:100%;;
+.date {
+  font-style: italic !important;
+  color: #868690;
+}
+
+.navBarItemSpacing {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navBarItemIcon {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+html, body {
+  margin: 0;
   scroll-behavior: smooth;
-  line-height: 20px;
-  text-align:center;
+  background-position: center;
+  background-color: white;
+}
+
+.jumbotron {
+  background-color:black !important;
+  padding-bottom: 0px !important;
+}
+
+.customContainer {
+  background-color: white !important;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:oblique;
+  color:rgb(94, 93, 93) !important;
+  background-size: 100%;
+  margin: 30px 30px 30px;
+  font-size: 30px;
+}
+
+.firstContainer {
+  background-color: white !important;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:oblique;
+  color:rgb(94, 93, 93) !important;
+  background-size: 100%;
+  margin: 30px 30px 30px;
+  font-size: 30px;
 }
