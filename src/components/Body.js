@@ -8,10 +8,9 @@ export function Body() {
         <div className="container center">
             <div className="row">
                     <FirstContainer title={'About Me'}><br/>
-                    <PicContainer>
-                        <img src={profileImage} alt="profile-image"/><br/><br/>
-                    </PicContainer>
-                        <BoxContainer>
+                    <BoxContainer>
+                        <img src={profileImage} alt="profile-image"/>
+                    <br/><br/>
                         Hello, my name is J Soe! I'm currently a third year computer science student at Simon Fraser University. 
                         <br/>I got interested in Computer Science because I love the challenge that comes with creating something from nothing!
                         During spare time, I like to explore new places, try new foods and discover new cultures.
@@ -40,7 +39,7 @@ export function Body() {
                                     <li>Assisted students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
                                 </ul>
                         </BoxContainer>
-
+                        <br/>
                         <BoxContainer>
                             Sale Associate at Eyestar Optical
                                 <ul>
@@ -58,6 +57,7 @@ export function Body() {
                                     <li>Simon Fraser University, Burnaby, British Columbia</li>
                                 </ul>
                         </BoxContainer>
+                        <br/>
                         <BoxContainer>
                             <p>BSc. Biological Science   <i>(September 2013 - December 2018)</i></p>
                                 <ul>
@@ -79,7 +79,7 @@ export function Body() {
                                 <li>HTML</li>
                             </ul>
                             </BoxContainer>
-
+                            <br/>
                         <BoxContainer>
                             Applications:
                             <ul>
@@ -117,7 +117,7 @@ export function Body() {
                                             to Software Engineering</a></li>
                                     </ul>
                         </BoxContainer>
-
+                        <br/>
                         <BoxContainer>
                                 <ContainerLink>Mathematics</ContainerLink>
                                     <ul>
