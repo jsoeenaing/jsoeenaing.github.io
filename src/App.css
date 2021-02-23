@@ -44,13 +44,11 @@ body {
 }
 
 .containerTitle {
-  font-size: 35px;
+  font-size: 40px;
   color:rgb(34, 34, 34);
   text-align: center;
   letter-spacing: 7px;
-  text-decoration-line: underline;
-  text-decoration-color: black;
-  text-decoration-thickness: 1pt;
+  text-decoration-line: none;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
