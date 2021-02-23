@@ -9,6 +9,7 @@ export function Body() {
             <div className="row">
                 <FirstContainer title={'About Me'}><br/>
                     <BoxContainer>
+                    <br/>
                         <img src={profileImage} alt="profile-image"/>
                         <br/><br/>
                         <b>Hello, my name is J Soe!</b> <br/>
