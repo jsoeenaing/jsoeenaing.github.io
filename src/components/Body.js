@@ -1,6 +1,6 @@
 import {ContainerLink, ContainerText, ContainerTitle} from "./textstyles";
 import {Card} from "@material-ui/core";
-import profileImage from '../img/profilepic1.png';
+import profileImage from '../img/ppic.png';
 import React from "react";
 
 export function Body() {
