@@ -108,9 +108,7 @@ body {
 }
 
 .boxContainer2 {
-  background-image: url('./img/cont2background.png');
-  background-repeat:no-repeat;
-  background-position:right;
+  background-color: white !important;
   font-size: 30px;
   line-height: 30px;
   padding-left: 20px;
