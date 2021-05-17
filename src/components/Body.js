@@ -26,12 +26,6 @@ export function Body() {
             <div className="row">
                 <AltContainer title={'Projects'}><br/>
                     <BoxContainer2>
-                    <b>Tic-Tac-Toe</b>
-                        <ul>
-                            <li>Implemented a simple Tic-Tac-Toe game in Python using PyCharm</li>
-                            <li>Used if-else rules to make the computer player intelligent and the game challenging</li>
-                            <li>Troubleshot game programming to ensure it builds and runs smoothly on an IDE</li>
-                        </ul>
 
                     <b>Tom & Jerry Maze Game</b>
                         <ul>
@@ -42,6 +36,14 @@ export function Body() {
                         <li><ContainerLink><a href="https://github.com/jsoeenaing/Tom-Jerry-Maze-Game.git"><b>View Project Here</b></a></ContainerLink></li>
                         </ul>
                     
+
+                    <b>Tic-Tac-Toe</b>
+                        <ul>
+                            <li>Implemented a simple Tic-Tac-Toe game in Python using PyCharm</li>
+                            <li>Used if-else rules to make the computer player intelligent and the game challenging</li>
+                            <li>Troubleshot game programming to ensure it builds and runs smoothly on an IDE</li>
+                        </ul>
+
                     <b>Hungry Snorlax!</b>
                         <ul>
                             <li>Implemented a collecting game named Hungry Snorlax using a block-based visual programming Scratch language</li>
