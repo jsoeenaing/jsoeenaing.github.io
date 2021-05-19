@@ -1,6 +1,6 @@
 import {ContainerLink, ContainerText, ContainerTitle} from "./textstyles";
 import {Card} from "@material-ui/core";
-import profileImage from '../img/ppic.png';
+import profileImage from '../img/profilepic2.png';
 import React from "react";
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -15,8 +15,8 @@ export function Body() {
                         <img src={profileImage} alt="profile-image"/>
                         <br/><br/>
                         <b>Hello, my name is J Soe!</b> <br/>
-                        I'm currently a third year computer science student at Simon Fraser University. 
-                        I got interested in Computer Science because I love the challenge that comes with creating something out of nothing!<br/>
+                        I'm currently a third year computer science student at Simon Fraser University. <br/>
+                        I got interested in Computer Science because I love the challenge that comes with creating something amazing out of nothing!<br/>
                         During spare time, I like to play RPG/strategy MOBA games, create acrylic and digital paintings and explore places I've never been before.
                         <b><br/><br/>Contact me: <a href="mailto:jnaing@sfu.ca"> jnaing@sfu.ca<br/><br/></a></b>
                     </BoxContainer1>
