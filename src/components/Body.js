@@ -10,7 +10,7 @@ export function Body() {
         <div className="container center">
             <div className="row">
                 <FirstContainer title={'About Me'}><br/>
-                    <BoxContainer1>
+                    <BoxContainer>
                     <br/>
                         <img src={profileImage} alt="profile-image"/>
                         <br/><br/>
@@ -19,13 +19,13 @@ export function Body() {
                         I got interested in Computer Science because I love the challenge that comes with creating something amazing out of nothing!<br/>
                         During spare time, I like to play RPG/strategy MOBA games, create acrylic and digital paintings and explore places I've never been before.
                         <b><br/><br/>Contact me: <a href="mailto:jnaing@sfu.ca"> jnaing@sfu.ca<br/><br/></a></b>
-                    </BoxContainer1>
+                    </BoxContainer>
                 </FirstContainer>
             </div>
 
             <div className="row">
                 <AltContainer title={'Projects'}><br/>
-                    <BoxContainer2>
+                    <BoxContainer>
 
                     <b>Tom & Jerry Maze Game</b>
                         <ul>
@@ -37,11 +37,12 @@ export function Body() {
                         </ul>
                     
 
-                    <b>Tic-Tac-Toe</b>
+                    <b>2-Player Tic Tac Toe Game</b>
                         <ul>
                             <li>Implemented a simple Tic-Tac-Toe game in Python using PyCharm</li>
-                            <li>Used if-else rules to make the computer player intelligent and the game challenging</li>
+                            <li>Used multiple if-else rules to account for all possible test cases</li>
                             <li>Troubleshot game programming to ensure it builds and runs smoothly on an IDE</li>
+                            <li><ContainerLink><a href="https://github.com/jsoeenaing/Tic-Tac-Toe.git"><b>View Project Here</b></a></ContainerLink></li>     
                         </ul>
 
                     <b>Hungry Snorlax!</b>
@@ -51,54 +52,54 @@ export function Body() {
                             <li>Designed the main character, rewards and punishments using Paint.NET</li>
                         <li><ContainerLink><a href="https://scratch.mit.edu/projects/392278500"><b>View Project Here</b></a></ContainerLink></li>
                         </ul>
-                    </BoxContainer2>
+                    </BoxContainer>
                 </AltContainer>
             </div>
 
             <div className="row">
                 <CustomContainer title={'Work Experience'}><br/>
-                    <BoxContainer3>
+                    <BoxContainer>
                         <b>Tutor at Friends of Simon </b>
                             <ul>
                                 <li>Working with 3 other tutors to assist students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
                                 <li>Analyzing and maintaining records of student's progress to teach individual needs</li>
                                 <li>Implementing and running literacy and numeracy activities for a group of up to 20 students</li>
                             </ul>
-                    </BoxContainer3>
+                    </BoxContainer>
                     <br/>
-                    <BoxContainer4>
+                    <BoxContainer>
                         <b>Sale Associate at Eyestar Optical</b>
                             <ul>
                                 <li>Dealing with customers' concerns and using appropriate judgment to solve for any arising problems and issues</li>
                                 <li>Entering new patient/customer profiles and prescriptions into online systems</li>
                                 <li>Anticipating and responding to customer cues by consistently evaluating customers’ needs</li>
                             </ul>
-                    </BoxContainer4>
+                    </BoxContainer>
                 </CustomContainer>
             </div>
 
             <div className="row">
                 <AltContainer title={'Education'}><br/>
-                    <BoxContainer1>
+                    <BoxContainer>
                         <b>BSc. Computing Science at Simon Fraser University (September 2019 - Present)</b>
                         <br/>
                         <b>BSc. Biological Science at Simon Fraser University (September 2013 - December 2018)</b>
-                    </BoxContainer1>
+                    </BoxContainer>
                 </AltContainer>
             </div>
 
             <div className="row">
                 <CustomContainer title={'Programming Languages & Applications'}><br/>
-                    <BoxContainer1>
+                    <BoxContainer>
                         <b>Languages: &nbsp;</b>
                             C/C++,&nbsp;
                             Java,&nbsp;
                             JavaScript,&nbsp;
                             Python&nbsp;
 
-                        </BoxContainer1>
+                        </BoxContainer>
                     <br/>
-                    <BoxContainer1>
+                    <BoxContainer>
                         <b>Applications:  &nbsp;</b>
                             Visual Studio,&nbsp;
                             IntelliJ,&nbsp;
@@ -108,13 +109,13 @@ export function Body() {
                             Node.js,&nbsp;
                             Bootstrap,&nbsp;
                             Microsoft Office
-                    </BoxContainer1>
+                    </BoxContainer>
                 </CustomContainer>
             </div>
 
             <Row>
                 <AltContainer title={'Courses'}><br/>
-                        <BoxContainer5>
+                        <BoxContainer>
                             <ContainerLink><b>Programming: &nbsp;</b></ContainerLink>
                             <a href="http://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/354.html">Database
                                  Systems</a>, &nbsp;&nbsp;
@@ -128,9 +129,9 @@ export function Body() {
                                 to Computer Systems</a>, &nbsp;&nbsp;
                             <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/276.html">Introduction
                                 to Software Engineering</a>
-                        </BoxContainer5>
+                        </BoxContainer>
                         <br/>
-                        <BoxContainer6>
+                        <BoxContainer>
                             <ContainerLink><b>Mathematics: &nbsp;</b></ContainerLink>
                                 <a href="https://www.sfu.ca/students/calendar/2021/summer/courses/math/154.html">Calculus
                                         I</a>,&nbsp;&nbsp;
@@ -144,18 +145,18 @@ export function Body() {
                                         Mathematics I</a>,&nbsp;&nbsp;
                                 <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/macm/201.html">Discrete
                                         Mathematics II</a>
-                        </BoxContainer6>
+                        </BoxContainer>
                 </AltContainer>
                 </Row>
 
                 
             <div className="row">
                 <CustomContainer title={'Hobbies (Artworks)'}><br/>
-                    <BoxContainer7>
+                    <BoxContainer2>
                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-                    </BoxContainer7>
+                    </BoxContainer2>
                 </CustomContainer>
             </div>
         </div>
@@ -192,9 +193,9 @@ function FirstContainer(props) {
     );
 }
 
-function BoxContainer1(props) {
+function BoxContainer(props) {
     return (
-        <Card className={'boxContainer1'}>
+        <Card className={'boxContainer'}>
             <ContainerTitle>{props.title}</ContainerTitle>
             <ContainerText>{props.children}</ContainerText>
         </Card>
@@ -204,52 +205,6 @@ function BoxContainer1(props) {
 function BoxContainer2(props) {
     return (
         <Card className={'boxContainer2'}>
-            <ContainerTitle>{props.title}</ContainerTitle>
-            <ContainerText>{props.children}</ContainerText>
-        </Card>
-    );
-}
-
-function BoxContainer3(props) {
-    return (
-        <Card className={'boxContainer3'}>
-            <ContainerTitle>{props.title}</ContainerTitle>
-            <ContainerText>{props.children}</ContainerText>
-        </Card>
-    );
-}
-
-function BoxContainer4(props) {
-    return (
-        <Card className={'boxContainer4'}>
-            <ContainerTitle>{props.title}</ContainerTitle>
-            <ContainerText>{props.children}</ContainerText>
-        </Card>
-    );
-}
-
-function BoxContainer5(props) {
-    return (
-        <Card className={'boxContainer5'}>
-            <ContainerTitle>{props.title}</ContainerTitle>
-            <ContainerText>{props.children}</ContainerText>
-        </Card>
-    );
-}
-
-function BoxContainer6(props) {
-    return (
-        <Card className={'boxContainer6'}>
-            <ContainerTitle>{props.title}</ContainerTitle>
-            <ContainerText>{props.children}</ContainerText>
-        </Card>
-    );
-}
-
-
-function BoxContainer7(props) {
-    return (
-        <Card className={'boxContainer7'}>
             <ContainerTitle>{props.title}</ContainerTitle>
             <ContainerText>{props.children}</ContainerText>
         </Card>

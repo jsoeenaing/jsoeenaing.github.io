@@ -96,7 +96,7 @@ body {
   padding-bottom: 15px;
 }
 
-.boxContainer1 {
+.boxContainer {
   background-color: white !important;
   font-size: 30px;
   line-height: 30px;
@@ -108,62 +108,7 @@ body {
 }
 
 .boxContainer2 {
-  background-color: white !important;
-  font-size: 30px;
-  line-height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 20px;
-  border: 4px double rgb(114, 114, 114) !important;
-}
-
-.boxContainer3 {
-  background-color: white !important;
-  font-size: 30px;
-  line-height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 20px;
-  border: 4px double rgb(114, 114, 114) !important;
-}
-
-.boxContainer4 {
-  background-color: white !important;
-  font-size: 30px;
-  line-height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 20px;
-  border: 4px double rgb(114, 114, 114) !important;
-}
-
-.boxContainer5 {
-  background-color: white !important;
-  font-size: 30px;
-  line-height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 20px;
-  border: 4px double rgb(114, 114, 114) !important;
-}
-
-.boxContainer6 {
-  background-color: rgb(255, 255, 255) !important;
-  font-size: 30px;
-  line-height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 20px;
-  border: 4px double rgb(114, 114, 114) !important;
-}
-
-.boxContainer7 {
-  background-image: url('./img/cont7background.png');
+  background-image: url('./img/hobbybackground.png');
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;

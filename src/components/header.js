@@ -1,6 +1,6 @@
 import {Jumbotron} from "react-bootstrap";
 import {SubTitle, Title} from "./textstyles";
-import backgroundImage from '../img/patterns.jpg';
+import backgroundImage from '../img/headerbackground.jpg';
 import Navbar from './Navbar';
 import React from "react";
 

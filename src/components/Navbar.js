@@ -5,12 +5,6 @@ import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
-
     return (
         <>
         <nav className='navbar'>
