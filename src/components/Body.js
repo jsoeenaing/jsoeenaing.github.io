@@ -15,7 +15,7 @@ export function Body() {
                         <img src={profileImage} alt="profile-image"/>
                         <br/><br/>
                         <b>Hello, my name is J Soe!</b> <br/>
-                        I'm currently a third year computer science student at Simon Fraser University. <br/>
+                        I'm currently a 4th year Computer Science student at Simon Fraser University. <br/>
                         I got interested in Computer Science because I love the challenge that comes with creating something amazing out of nothing!<br/>
                         During spare time, I like to play RPG/strategy MOBA games, create acrylic and digital paintings and explore places I've never been before.
                         <b><br/><br/>Contact me: <a href="mailto:jnaing@sfu.ca"> jnaing@sfu.ca<br/><br/></a></b>
@@ -24,42 +24,21 @@ export function Body() {
             </div>
 
             <div className="row">
-                <AltContainer title={'Projects'}><br/>
+                <AltContainer title={'Work Experience'}><br/>
                     <BoxContainer>
-
-                    <b>Tom & Jerry Maze Game</b>
-                        <ul>
-                            <li>Programmed a maze game called Tom & Jerry using IntelliJ </li>
-                            <li>Used a set of Swing components which allow for creation of a User Interface</li>
-                            <li>Collaborated and communicated closely with a team of three other members</li>
-                            <li>Designed the UML and mock-up of User Interface</li>
-                        <li><ContainerLink><a href="https://github.com/jsoeenaing/Tom-Jerry-Maze-Game.git"><b>View Project Here</b></a></ContainerLink></li>
-                        </ul>
-                    
-
-                    <b>2-Player Tic Tac Toe Game</b>
-                        <ul>
-                            <li>Implemented a simple Tic-Tac-Toe game in Python using PyCharm</li>
-                            <li>Used multiple if-else rules to account for all possible test cases</li>
-                            <li>Troubleshot game programming to ensure it builds and runs smoothly on an IDE</li>
-                            <li><ContainerLink><a href="https://github.com/jsoeenaing/Tic-Tac-Toe.git"><b>View Project Here</b></a></ContainerLink></li>     
-                        </ul>
-
-                    <b>Hungry Snorlax!</b>
-                        <ul>
-                            <li>Implemented a collecting game named Hungry Snorlax using a block-based visual programming Scratch language</li>
-                            <li>Planned out an appealing visual theme to enhance the players' experience</li>
-                            <li>Designed the main character, rewards and punishments using Paint.NET</li>
-                        <li><ContainerLink><a href="https://scratch.mit.edu/projects/392278500"><b>View Project Here</b></a></ContainerLink></li>
-                        </ul>
+                        <b>Web Application Developer Intern,</b> Fraser Health <br/>
+                        Sept 2021 - Present
+                            <ul>
+                                <li>Assisting in the development of a health care information system called iTracker</li>
+                                <li>Using Scrum project management methodology to organize projects, receive feedback and reflect for continuous improvement </li>
+                                <li>Using Visual Studio IDE and ASP.NET MVC framework to build a web application</li>
+                                <li>Collaborating closely with other developers to develop features adhering to the requirements of clients</li>
+                            </ul>
                     </BoxContainer>
-                </AltContainer>
-            </div>
-
-            <div className="row">
-                <CustomContainer title={'Work Experience'}><br/>
+                    <br/>
                     <BoxContainer>
-                        <b>Tutor at Friends of Simon </b>
+                        <b>High School Tutor,</b> Simon Fraser University <br/>
+                        Jan 2018 – Present
                             <ul>
                                 <li>Working with 3 other tutors to assist students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
                                 <li>Analyzing and maintaining records of student's progress to teach individual needs</li>
@@ -68,12 +47,48 @@ export function Body() {
                     </BoxContainer>
                     <br/>
                     <BoxContainer>
-                        <b>Sale Associate at Eyestar Optical</b>
+                        <b>Sales Associate,</b> Eyestar Optical <br/>
+                        Feb 2016 - Jul 2021
                             <ul>
                                 <li>Dealing with customers' concerns and using appropriate judgment to solve for any arising problems and issues</li>
                                 <li>Entering new patient/customer profiles and prescriptions into online systems</li>
                                 <li>Anticipating and responding to customer cues by consistently evaluating customers’ needs</li>
                             </ul>
+                    </BoxContainer>
+                </AltContainer>
+            </div>
+
+            <div className="row">
+                <CustomContainer title={'Projects'}><br/>
+                    <BoxContainer>
+                    <b>Tom & Jerry Maze Game</b>
+                        <ul>
+                            <li>Programmed a maze game called Tom & Jerry using IntelliJ </li>
+                            <li>Used a set of Swing components which allow for creation of a User Interface</li>
+                            <li>Collaborated and communicated closely with a team of three other members</li>
+                            <li>Designed the UML and mock-up of User Interface</li>
+                        <li><ContainerLink><a href="https://github.com/jsoeenaing/Tom-Jerry-Maze-Game.git"><b>View Project Here</b></a></ContainerLink></li>
+                        </ul>
+                    </BoxContainer>
+                    <br/>
+                    <BoxContainer>
+                    <b>2-Player Tic Tac Toe Game</b>
+                        <ul>
+                            <li>Implemented a simple Tic-Tac-Toe game in Python using PyCharm</li>
+                            <li>Used multiple if-else rules to account for all possible test cases</li>
+                            <li>Troubleshot game programming to ensure it builds and runs smoothly on an IDE</li>
+                            <li><ContainerLink><a href="https://github.com/jsoeenaing/Tic-Tac-Toe.git"><b>View Project Here</b></a></ContainerLink></li>     
+                        </ul>
+                    </BoxContainer>
+                    <br/>
+                    <BoxContainer>
+                    <b>Hungry Snorlax!</b>
+                        <ul>
+                            <li>Implemented a collecting game named Hungry Snorlax using a block-based visual programming Scratch language</li>
+                            <li>Planned out an appealing visual theme to enhance the players' experience</li>
+                            <li>Designed the main character, rewards and punishments using Paint.NET</li>
+                        <li><ContainerLink><a href="https://scratch.mit.edu/projects/392278500"><b>View Project Here</b></a></ContainerLink></li>
+                        </ul>
                     </BoxContainer>
                 </CustomContainer>
             </div>
@@ -81,9 +96,13 @@ export function Body() {
             <div className="row">
                 <AltContainer title={'Education'}><br/>
                     <BoxContainer>
-                        <b>BSc. Computing Science at Simon Fraser University (September 2019 - Present)</b>
-                        <br/>
-                        <b>BSc. Biological Science at Simon Fraser University (September 2013 - December 2018)</b>
+                        <b>BASc. Computing Science, </b> Simon Fraser University <br/>
+                        September 2019 - Present <br/>
+                    </BoxContainer>
+                    <br/>
+                    <BoxContainer>
+                        <b>BSc. Biological Science, </b> Simon Fraser University <br/>
+                        September 2013 - December 2018 <br/>
                     </BoxContainer>
                 </AltContainer>
             </div>
@@ -92,10 +111,12 @@ export function Body() {
                 <CustomContainer title={'Programming Languages & Applications'}><br/>
                     <BoxContainer>
                         <b>Languages: &nbsp;</b>
+                            Python,&nbsp;
                             C/C++,&nbsp;
+                            C#,&nbsp;
                             Java,&nbsp;
-                            JavaScript,&nbsp;
-                            Python&nbsp;
+                            JavaScript&nbsp;
+                            
 
                         </BoxContainer>
                     <br/>
@@ -105,7 +126,6 @@ export function Body() {
                             IntelliJ,&nbsp;
                             PyCharm,&nbsp;
                             Github,&nbsp;
-                            Gitlab,&nbsp;
                             Node.js,&nbsp;
                             Bootstrap,&nbsp;
                             Microsoft Office
