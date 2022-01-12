@@ -17,6 +17,10 @@ export function ContainerText(props) {
     return <div className={'containerText'}>{props.children}</div>;
 }
 
+export function AboutMeContainerText(props) {
+    return <div className={'aboutMeContainerText'}>{props.children}</div>;
+}
+
 export function ContainerLink(props) {
     return <span className={'containerLink'}>{props.children}</span>;
 }

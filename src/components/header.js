@@ -1,6 +1,6 @@
 import {Jumbotron} from "react-bootstrap";
-import {SubTitle, Title} from "./textstyles";
-import backgroundImage from '../img/headerbackground.jpg';
+import {SubTitle, Title} from "./Textstyles";
+import backgroundImage from '../img/aesthetic_background.jpg';
 import Navbar from './Navbar';
 import React from "react";
 
@@ -11,12 +11,12 @@ export function Header() {
                 backgroundImage: `url(${backgroundImage})`,
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
-                    height: '150%'
+                    height: '100%'
                     }}>
             <br/><br/>
             <Title>J SOE NAING</Title>
             <br/>
-            <SubTitle>CS Student at Simon Fraser University</SubTitle>
+            <SubTitle>Web Developer Intern | Computer Science Student</SubTitle>
             <Navbar/>
             <br/>
             </div>

@@ -12,26 +12,26 @@
 }
 
 .btn--outline{
-    background:transparent;
+    background: transparent;
     color: white;
-    font-weight:bold;
-    padding: 8px 20px;
+    font-weight:thin;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
+    border-color: white;
+    box-shadow: 1px 1px 8px white;
 }
 
 .btn--medium {
-    padding: 8px 20px;
     font-size: 20px;
 }
 
 .btn--large {
-    padding: 12px 26px;
     font-size: 20px;
 }
 
 .btn--medium:hover, .btn--large:hover {
     background: white;
-    color: #242424;
+    color: black;
     transition: all 0.3s ease-out;
+    box-shadow: 1px 1px 8px gray;
 }

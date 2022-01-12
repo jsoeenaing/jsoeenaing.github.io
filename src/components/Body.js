@@ -1,4 +1,4 @@
-import {ContainerLink, ContainerText, ContainerTitle} from "./textstyles";
+import {ContainerLink, ContainerText, AboutMeContainerText, ContainerTitle} from "./Textstyles";
 import {Card} from "@material-ui/core";
 import profileImage from '../img/profilepic2.png';
 import React from "react";
@@ -10,58 +10,66 @@ export function Body() {
         <div className="container center">
             <div className="row">
                 <FirstContainer title={'About Me'}><br/>
-                    <BoxContainer>
+                    <AboutMeContainer>
                     <br/>
                         <img src={profileImage} alt="profile-image"/>
                         <br/><br/>
-                        <b>Hello, my name is J Soe!</b> <br/>
-                        I'm currently a 4th year Computer Science student at Simon Fraser University. <br/>
-                        I got interested in Computer Science because I love the challenge that comes with creating something amazing out of nothing!<br/>
-                        During spare time, I like to play RPG/strategy MOBA games, create acrylic and digital paintings and explore places I've never been before.
-                        <b><br/><br/>Contact me: <a href="mailto:jnaing@sfu.ca"> jnaing@sfu.ca<br/><br/></a></b>
-                    </BoxContainer>
+                        <b>Hello</b>
+                        <br/>
+                        I am a second degree Computer Science student possessing a bachelor’s degree in Biological Science. <br/>
+                        I decided to pursue Computer Science because I was so appealed by the nature of building something from nothing. <br/>
+                        Just like an artist with a paintbrush, a developer can create neat things using just time and a computer.. isn't that fascinating?! ㋛ <br/>
+                        Aside coding, I enjoy playing the guitar, painting and exploring the outdoors. <br/>
+                        <b><br/>Contact me: <a href="mailto:jsoe_06@hotmail.com">jsoe_06@hotmail.com</a><br/><br/></b>
+                    </AboutMeContainer>
                 </FirstContainer>
             </div>
 
             <div className="row">
                 <AltContainer title={'Work Experience'}><br/>
                     <BoxContainer>
-                        <b>Web Application Developer Intern,</b> Fraser Health <br/>
+                        <b>Web Application Developer Intern,</b> Fraser Health Authority<br/>
                         Sept 2021 - Present
                             <ul>
                                 <li>Assisting in the development of a health care information system called iTracker</li>
                                 <li>Using Scrum project management methodology to organize projects, receive feedback and reflect for continuous improvement </li>
                                 <li>Using Visual Studio IDE and ASP.NET MVC framework to build a web application</li>
                                 <li>Collaborating closely with other developers to develop features adhering to the requirements of clients</li>
+                                <li>Leading the hiring process and communicating closely with the manager and HR to hire for available web developer positions</li>
+                                <li>Ensuring a smooth operational experience for others using Azure DevOps as one of the DevOps admins</li>
                             </ul>
-                    </BoxContainer>
-                    <br/>
-                    <BoxContainer>
                         <b>High School Tutor,</b> Simon Fraser University <br/>
-                        Jan 2018 – Present
+                        Jan 2018 – Aug 2021
                             <ul>
-                                <li>Working with 3 other tutors to assist students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
-                                <li>Analyzing and maintaining records of student's progress to teach individual needs</li>
-                                <li>Implementing and running literacy and numeracy activities for a group of up to 20 students</li>
+                                <li>Worked with 3 other tutors to assist students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
+                                <li>Analyzed and maintained records of student's progress to teach individual needs</li>
+                                <li>Implemented and ran literacy and numeracy activities for a group of up to 20 students</li>
                             </ul>
-                    </BoxContainer>
-                    <br/>
-                    <BoxContainer>
                         <b>Sales Associate,</b> Eyestar Optical <br/>
                         Feb 2016 - Jul 2021
                             <ul>
-                                <li>Dealing with customers' concerns and using appropriate judgment to solve for any arising problems and issues</li>
-                                <li>Entering new patient/customer profiles and prescriptions into online systems</li>
-                                <li>Anticipating and responding to customer cues by consistently evaluating customers’ needs</li>
+                                <li>Dealt with customers' concerns and used appropriate judgment to solve for any arising problems and issues</li>
+                                <li>Entered new patient/customer profiles and prescriptions into online systems</li>
+                                <li>Anticipated and responded to customer cues by consistently evaluating customers’ needs</li>
                             </ul>
                     </BoxContainer>
                 </AltContainer>
             </div>
 
             <div className="row">
+                <CustomContainer title={'Hobbies (Artworks)'}><br/>
+                    <BoxContainer2>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+                    </BoxContainer2>
+                </CustomContainer>
+            </div>
+
+            <div className="roow">
                 <CustomContainer title={'Projects'}><br/>
-                    <BoxContainer>
-                    <b>Tom & Jerry Maze Game</b>
+                    <BoxContainerProject>
+                        <b>Tom & Jerry Maze Game</b>
                         <ul>
                             <li>Programmed a maze game called Tom & Jerry using IntelliJ </li>
                             <li>Used a set of Swing components which allow for creation of a User Interface</li>
@@ -69,39 +77,32 @@ export function Body() {
                             <li>Designed the UML and mock-up of User Interface</li>
                         <li><ContainerLink><a href="https://github.com/jsoeenaing/Tom-Jerry-Maze-Game.git"><b>View Project Here</b></a></ContainerLink></li>
                         </ul>
-                    </BoxContainer>
-                    <br/>
-                    <BoxContainer>
-                    <b>2-Player Tic Tac Toe Game</b>
+                        <br/>
+                        <b>2-Player Tic Tac Toe Game</b>
                         <ul>
                             <li>Implemented a simple Tic-Tac-Toe game in Python using PyCharm</li>
                             <li>Used multiple if-else rules to account for all possible test cases</li>
                             <li>Troubleshot game programming to ensure it builds and runs smoothly on an IDE</li>
                             <li><ContainerLink><a href="https://github.com/jsoeenaing/Tic-Tac-Toe.git"><b>View Project Here</b></a></ContainerLink></li>     
                         </ul>
-                    </BoxContainer>
-                    <br/>
-                    <BoxContainer>
-                    <b>Hungry Snorlax!</b>
+                        <br/>
+                        <b>Hungry Snorlax!</b>
                         <ul>
                             <li>Implemented a collecting game named Hungry Snorlax using a block-based visual programming Scratch language</li>
                             <li>Planned out an appealing visual theme to enhance the players' experience</li>
                             <li>Designed the main character, rewards and punishments using Paint.NET</li>
                         <li><ContainerLink><a href="https://scratch.mit.edu/projects/392278500"><b>View Project Here</b></a></ContainerLink></li>
                         </ul>
-                    </BoxContainer>
+                    </BoxContainerProject>
                 </CustomContainer>
             </div>
 
             <div className="row">
                 <AltContainer title={'Education'}><br/>
                     <BoxContainer>
-                        <b>BASc. Computing Science, </b> Simon Fraser University <br/>
-                        September 2019 - Present <br/>
-                    </BoxContainer>
-                    <br/>
-                    <BoxContainer>
-                        <b>BSc. Biological Science, </b> Simon Fraser University <br/>
+                        <b>Bachelor of Computing Science, </b> Simon Fraser University <br/>
+                        September 2019 - Present <br/> <br/>
+                        <b>Bachelor of Biological Science, </b> Simon Fraser University <br/>
                         September 2013 - December 2018 <br/>
                     </BoxContainer>
                 </AltContainer>
@@ -112,15 +113,11 @@ export function Body() {
                     <BoxContainer>
                         <b>Languages: &nbsp;</b>
                             Python,&nbsp;
-                            C/C++,&nbsp;
                             C#,&nbsp;
                             Java,&nbsp;
-                            JavaScript&nbsp;
-                            
-
-                        </BoxContainer>
-                    <br/>
-                    <BoxContainer>
+                            JavaScript,&nbsp;
+                            HTML/CSS
+                        <br/><br/>
                         <b>Applications:  &nbsp;</b>
                             Visual Studio,&nbsp;
                             IntelliJ,&nbsp;
@@ -135,50 +132,25 @@ export function Body() {
 
             <Row>
                 <AltContainer title={'Courses'}><br/>
-                        <BoxContainer>
-                            <ContainerLink><b>Programming: &nbsp;</b></ContainerLink>
-                            <a href="http://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/354.html">Database
-                                 Systems</a>, &nbsp;&nbsp;
-                            <a href="https://www.sfu.ca/students/calendar/2021/spring/courses/cmpt/300.html">Operating 
-                                 Systems I</a>, &nbsp;&nbsp;
-                            <a href="https://www.sfu.ca/students/calendar/2021/spring/courses/cmpt/310.htmll">Artificial 
-                                Intelligence Survey</a>, &nbsp;&nbsp;
-                            <a href="https://www.sfu.ca/students/calendar/2020/summer/courses/cmpt/225.html">Data
-                                Structures and Programming</a>, &nbsp;&nbsp;
-                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/295.html">Introduction
-                                to Computer Systems</a>, &nbsp;&nbsp;
-                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/276.html">Introduction
-                                to Software Engineering</a>
-                        </BoxContainer>
-                        <br/>
-                        <BoxContainer>
-                            <ContainerLink><b>Mathematics: &nbsp;</b></ContainerLink>
-                                <a href="https://www.sfu.ca/students/calendar/2021/summer/courses/math/154.html">Calculus
-                                        I</a>,&nbsp;&nbsp;
-                                 <a href="https://www.sfu.ca/students/calendar/2021/summer/courses/math/155.html">Calculus
-                                        II</a>,&nbsp;&nbsp;
-                                <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/math/232.html">Linear
-                                        Algebra</a>,&nbsp;&nbsp;
-                                <a href="https://www.sfu.ca/students/calendar/2020/summer/courses/macm/316.html">Numerical
-                                        Analysis</a>,&nbsp;&nbsp;
-                                <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/macm/101.html">Discrete
-                                        Mathematics I</a>,&nbsp;&nbsp;
-                                <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/macm/201.html">Discrete
-                                        Mathematics II</a>
-                        </BoxContainer>
+                    <BoxContainer>
+                        <ContainerLink><b>Programming: &nbsp;</b></ContainerLink>
+                            <a href="http://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/354.html">Database Systems</a>, &nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2021/spring/courses/cmpt/300.html">Operating Systems I</a>, &nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2021/spring/courses/cmpt/310.htmll">Artificial Intelligence Survey</a>, &nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/summer/courses/cmpt/225.html">Data Structures and Programming</a>, &nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/295.html">Introduction to Computer Systems</a>, &nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/276.html">Introduction to Software Engineering</a>
+                        <br/><br/>
+                        <ContainerLink><b>Mathematics: &nbsp;</b></ContainerLink>
+                            <a href="https://www.sfu.ca/students/calendar/2021/summer/courses/math/154.html">Calculus I</a>,&nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2021/summer/courses/math/155.html">Calculus II</a>,&nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/math/232.html">Linear Algebra</a>,&nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/summer/courses/macm/316.html">Numerical Analysis</a>,&nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/macm/101.html">Discrete Mathematics I</a>,&nbsp;&nbsp;
+                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/macm/201.html">Discrete Mathematics II</a>
+                    </BoxContainer>
                 </AltContainer>
-                </Row>
-
-                
-            <div className="row">
-                <CustomContainer title={'Hobbies (Artworks)'}><br/>
-                    <BoxContainer2>
-                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-                    </BoxContainer2>
-                </CustomContainer>
-            </div>
+            </Row>
         </div>
     );
 }
@@ -213,6 +185,15 @@ function FirstContainer(props) {
     );
 }
 
+function AboutMeContainer(props) {
+    return (
+        <Card className={'aboutMeContainer'}>
+            <ContainerTitle>{props.title}</ContainerTitle>
+            <AboutMeContainerText>{props.children}</AboutMeContainerText>
+        </Card>
+    );
+}
+
 function BoxContainer(props) {
     return (
         <Card className={'boxContainer'}>
@@ -225,6 +206,15 @@ function BoxContainer(props) {
 function BoxContainer2(props) {
     return (
         <Card className={'boxContainer2'}>
+            <ContainerTitle>{props.title}</ContainerTitle>
+            <ContainerText>{props.children}</ContainerText>
+        </Card>
+    );
+}
+
+function BoxContainerProject(props) {
+    return (
+        <Card className={'boxContainerProject'}>
             <ContainerTitle>{props.title}</ContainerTitle>
             <ContainerText>{props.children}</ContainerText>
         </Card>
