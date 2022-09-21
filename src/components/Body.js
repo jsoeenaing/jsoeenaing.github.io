@@ -1,8 +1,7 @@
 import {ContainerLink, ContainerText, AboutMeContainerText, ContainerTitle} from "./Textstyles";
 import {Card} from "@material-ui/core";
-import profileImage from '../img/profilepic2.png';
+import profileImage from '../assets/images/profilepic2.png';
 import React from "react";
-import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 export function Body() {
@@ -28,15 +27,22 @@ export function Body() {
             <div className="row">
                 <AltContainer title={'Work Experience'}><br/>
                     <BoxContainer>
-                        <b>Web Application Developer Intern,</b> Fraser Health Authority<br/>
-                        Sept 2021 - Present
+                    <b>Web Application Developer (Part-Time),</b> Fraser Health Authority<br/>
+                        Apr 2022 - Present
                             <ul>
-                                <li>Assisting in the development of a health care information system called iTracker</li>
-                                <li>Using Scrum project management methodology to organize projects, receive feedback and reflect for continuous improvement </li>
-                                <li>Using Visual Studio IDE and ASP.NET MVC framework to build a web application</li>
-                                <li>Collaborating closely with other developers to develop features adhering to the requirements of clients</li>
-                                <li>Leading the hiring process and communicating closely with the manager and HR to hire for available web developer positions</li>
+                                <li>Developing a ‘Leave Scheduler’ PowerApps application to be used by the whole System Optimization department </li>
                                 <li>Ensuring a smooth operational experience for others using Azure DevOps as one of the DevOps admins</li>
+                                <li>Maintaining good relations and excellent collaboration with team members</li>
+                                <li>Working with SQL-based databases and ASP.NET MVC framework to develop new features in a health care web application called iTracke</li>
+                            </ul>
+                        <b>Web Application Developer Intern,</b> Fraser Health Authority<br/>
+                        Sept 2021 - Apr 2022
+                            <ul>
+                                <li>Used Scrum project management methodology to organize projects, receive feedback and reflect for continuous improvement </li>
+                                <li>Used Visual Studio IDE and ASP.NET MVC framework to build health care a web application called iTracker </li>
+                                <li>Collaborated closely with other developers to develop features adhering to the requirements of clients </li>
+                                <li>Tested and verified new or improved features and fixed existing bugs </li>
+                                <li>Lead the hiring process and communicated closely with the manager and HR to hire for available web developer positions </li>
                             </ul>
                         <b>High School Tutor,</b> Simon Fraser University <br/>
                         Jan 2018 – Aug 2021
@@ -44,13 +50,6 @@ export function Body() {
                                 <li>Worked with 3 other tutors to assist students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
                                 <li>Analyzed and maintained records of student's progress to teach individual needs</li>
                                 <li>Implemented and ran literacy and numeracy activities for a group of up to 20 students</li>
-                            </ul>
-                        <b>Sales Associate,</b> Eyestar Optical <br/>
-                        Feb 2016 - Jul 2021
-                            <ul>
-                                <li>Dealt with customers' concerns and used appropriate judgment to solve for any arising problems and issues</li>
-                                <li>Entered new patient/customer profiles and prescriptions into online systems</li>
-                                <li>Anticipated and responded to customer cues by consistently evaluating customers’ needs</li>
                             </ul>
                     </BoxContainer>
                 </AltContainer>
@@ -66,14 +65,14 @@ export function Body() {
                 </CustomContainer>
             </div>
 
-            <div className="roow">
+            <div className="row">
                 <CustomContainer title={'Projects'}><br/>
                     <BoxContainerProject>
                         <b>Tom & Jerry Maze Game</b>
                         <ul>
-                            <li>Programmed a maze game called Tom & Jerry using IntelliJ </li>
-                            <li>Used a set of Swing components which allow for creation of a User Interface</li>
-                            <li>Collaborated and communicated closely with a team of three other members</li>
+                            <li>Programmed a maze game called Tom & Jerry in Java using OOP design concepts </li>
+                            <li>Used a set of Swing components which allow for creation of a User Interface </li>
+                            <li>Collaborated and communicated closely with a team of three other members </li>
                             <li>Designed the UML and mock-up of User Interface</li>
                         <li><ContainerLink><a href="https://github.com/jsoeenaing/Tom-Jerry-Maze-Game.git"><b>View Project Here</b></a></ContainerLink></li>
                         </ul>
@@ -101,7 +100,7 @@ export function Body() {
                 <AltContainer title={'Education'}><br/>
                     <BoxContainer>
                         <b>Bachelor of Computing Science, </b> Simon Fraser University <br/>
-                        September 2019 - Present <br/> <br/>
+                        September 2019 - December 2022 <br/> <br/>
                         <b>Bachelor of Biological Science, </b> Simon Fraser University <br/>
                         September 2013 - December 2018 <br/>
                     </BoxContainer>
@@ -113,8 +112,9 @@ export function Body() {
                     <BoxContainer>
                         <b>Languages: &nbsp;</b>
                             Python,&nbsp;
-                            C#,&nbsp;
                             Java,&nbsp;
+                            C#,&nbsp;
+                            MySQL,&nbsp; 
                             JavaScript,&nbsp;
                             HTML/CSS
                         <br/><br/>
@@ -122,10 +122,7 @@ export function Body() {
                             Visual Studio,&nbsp;
                             IntelliJ,&nbsp;
                             PyCharm,&nbsp;
-                            Github,&nbsp;
-                            Node.js,&nbsp;
-                            Bootstrap,&nbsp;
-                            Microsoft Office
+                            PowerApps
                     </BoxContainer>
                 </CustomContainer>
             </div>
@@ -138,7 +135,6 @@ export function Body() {
                             <a href="https://www.sfu.ca/students/calendar/2021/spring/courses/cmpt/300.html">Operating Systems I</a>, &nbsp;&nbsp;
                             <a href="https://www.sfu.ca/students/calendar/2021/spring/courses/cmpt/310.htmll">Artificial Intelligence Survey</a>, &nbsp;&nbsp;
                             <a href="https://www.sfu.ca/students/calendar/2020/summer/courses/cmpt/225.html">Data Structures and Programming</a>, &nbsp;&nbsp;
-                            <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/295.html">Introduction to Computer Systems</a>, &nbsp;&nbsp;
                             <a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/276.html">Introduction to Software Engineering</a>
                         <br/><br/>
                         <ContainerLink><b>Mathematics: &nbsp;</b></ContainerLink>

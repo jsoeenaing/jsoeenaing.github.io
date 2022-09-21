@@ -1,6 +1,5 @@
-import {Jumbotron} from "react-bootstrap";
 import {SubTitle, Title} from "./Textstyles";
-import backgroundImage from '../img/aesthetic_background.jpg';
+import backgroundImage from '../assets/images/header.jpg';
 import Navbar from './Navbar';
 import React from "react";
 
@@ -16,7 +15,7 @@ export function Header() {
             <br/><br/>
             <Title>J SOE NAING</Title>
             <br/>
-            <SubTitle>Web Developer Intern | Computer Science Student</SubTitle>
+            <SubTitle>Web Application Developer | Computer Science Student</SubTitle>
             <Navbar/>
             <br/>
             </div>

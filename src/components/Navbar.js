@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {GoMarkGithub, GoPencil} from "react-icons/go";
-import { GrLinkedin } from "react-icons/gr";
-import { Button } from './Button';
-import './Navbar.css';
+import {GrLinkedin} from "react-icons/gr";
+import {Button} from './Button';
+import '../assets/styles/Navbar.css';
 
 function Navbar() {
     return (

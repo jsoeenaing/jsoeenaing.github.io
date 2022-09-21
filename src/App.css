@@ -84,7 +84,7 @@ body {
 }
 
 .altContainer {
-  background-image: url('./img/about_me_background.png');
+  background-image: url('./assets/images/intro.png');
   font-size: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -93,7 +93,7 @@ body {
 }
 
 .aboutMeContainer {
-  background-image: url('./img/about_me_background.png');
+  background-image: url('./assets/images/intro.png');
   background-repeat: repeat-y;
   line-height: 20px;
   padding-top: 20px;
@@ -123,7 +123,7 @@ body {
 }
 
 .boxContainer2 {
-  background-image: url('./img/hobbybackground.png');
+  background-image: url('./assets/images/hobbies.png');
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
