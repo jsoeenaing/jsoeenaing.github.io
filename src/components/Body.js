@@ -15,10 +15,8 @@ export function Body() {
                         <br/><br/>
                         <b>Hello</b>
                         <br/>
-                        I am a second degree Computer Science student possessing a bachelor’s degree in Biological Science. <br/>
-                        I decided to pursue Computer Science because I was so appealed by the nature of building something from nothing. <br/>
-                        Just like an artist with a paintbrush, a developer can create neat things using just time and a computer.. isn't that fascinating?! ㋛ <br/>
-                        Aside coding, I enjoy playing the guitar, painting and exploring the outdoors. <br/>
+                        I am a full-time web developer with dual degrees in Computer Science and Biological Science. My passion for Computer Science stemmed from the allure of creating something from nothing, much like an artist with a paintbrush. The ability to build and innovate using just time and a computer is truly fascinating to me.☺ 
+                        <br/><br/>When I'm not working, you'll find me playing the guitar, painting, exploring the outdoors, or spending time with my lovely family, friends and puppy.<br/>
                         <b><br/>Contact me: <a href="mailto:jsoe_06@hotmail.com">jsoe_06@hotmail.com</a><br/><br/></b>
                     </AboutMeContainer>
                 </FirstContainer>
@@ -27,29 +25,27 @@ export function Body() {
             <div className="row">
                 <AltContainer title={'Work Experience'}><br/>
                     <BoxContainer>
-                    <b>Web Application Developer (Part-Time),</b> Fraser Health Authority<br/>
-                        Apr 2022 - Present
+                    <b>Developer (Full-Time),</b> Fraser Health Authority<br/>
+                        May 2023 - Present
                             <ul>
-                                <li>Developing a ‘Leave Scheduler’ PowerApps application to be used by the whole System Optimization department </li>
-                                <li>Ensuring a smooth operational experience for others using Azure DevOps as one of the DevOps admins</li>
-                                <li>Maintaining good relations and excellent collaboration with team members</li>
-                                <li>Working with SQL-based databases and ASP.NET MVC framework to develop new features in a health care web application called iTracke</li>
+                                <li>Leading the end-to-end implementation of a PowerApps application focused ontracking Patient Referrals to Mental Health programs leveraging the Power Platform,specifically Power Apps, Power Automate, Data Verse and Dataflow to architect andimplement a seamlessly integrated tracking system with best coding standards.</li>
+                                <li>Collaborating with the executive director and senior directors to create an innovativePowerApps application for problem-solution matching, using an agile approach togather feedback and make iterative improvements.</li>
+                                <li>Developing, enhancing and testing features within a patient tracking healthcare systemfor hospitals using SQL-based databases, C#, JavaScript, HTML, and CSS within theASP.Net MVC framework, directly contributing to system improvements.</li>
+                                <li>Ensured smooth operations in Azure DevOps by adding new fields and managing accessand permissions.</li>
                             </ul>
-                        <b>Web Application Developer Intern,</b> Fraser Health Authority<br/>
-                        Sept 2021 - Apr 2022
+                        <b>Developer (Co-op/Casual),</b> Fraser Health Authority<br/>
+                        Sep 2021 - Apr 2023
                             <ul>
-                                <li>Used Scrum project management methodology to organize projects, receive feedback and reflect for continuous improvement </li>
-                                <li>Used Visual Studio IDE and ASP.NET MVC framework to build health care a web application called iTracker </li>
-                                <li>Collaborated closely with other developers to develop features adhering to the requirements of clients </li>
-                                <li>Tested and verified new or improved features and fixed existing bugs </li>
-                                <li>Lead the hiring process and communicated closely with the manager and HR to hire for available web developer positions </li>
+                                <li>Leveraged Agile methodology to drive continuous improvement and effectivelymanage project organization.</li>
+                                <li>Ensured the reliability and functionality of new or enhanced features throughcomprehensive testing, promptly resolving bugs and issues.</li>
+                                <li>Assisted in development of new features in a healthcare application using VisualStudio IDE and ASP.NET MVC framework, delivering effective solutions to addresscritical industry requirements.</li>
+                                <li>Cultivated strong relationships and fostered exceptional collaboration among teammembers.</li>
                             </ul>
                         <b>High School Tutor,</b> Simon Fraser University <br/>
                         Jan 2018 – Aug 2021
                             <ul>
-                                <li>Worked with 3 other tutors to assist students in acquiring better understanding of targeted weak areas within a subject or a subject as a whole</li>
-                                <li>Analyzed and maintained records of student's progress to teach individual needs</li>
-                                <li>Implemented and ran literacy and numeracy activities for a group of up to 20 students</li>
+                                <li>ApplicationsCollaborated closely with a team of three tutors to provide comprehensive support tostudents, helping them gain a deeper understanding of targeted weak areas withinspecific subjects or the subject as a whole.</li>
+                                <li>Took charge of planning and orchestrating engaging literacy and numeracy activitiesfor a group of up to 20 students, fostering their academic growth and inspiringstudents to learn.</li>
                             </ul>
                     </BoxContainer>
                 </AltContainer>
@@ -103,6 +99,7 @@ export function Body() {
                         September 2019 - December 2022 <br/> <br/>
                         <b>Bachelor of Biological Science, </b> Simon Fraser University <br/>
                         September 2013 - December 2018 <br/>
+                        <i>Dean's Honor Roll List, 2018</i>
                     </BoxContainer>
                 </AltContainer>
             </div>

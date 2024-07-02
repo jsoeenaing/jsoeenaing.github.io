@@ -15,7 +15,7 @@ export function Header() {
             <br/><br/>
             <Title>J SOE NAING</Title>
             <br/>
-            <SubTitle>Web Application Developer | Computer Science Student</SubTitle>
+            <SubTitle>Web Developer</SubTitle>
             <Navbar/>
             <br/>
             </div>
