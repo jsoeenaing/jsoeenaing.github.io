@@ -28,24 +28,24 @@ export function Body() {
                     <b>Developer (Full-Time),</b> Fraser Health Authority<br/>
                         May 2023 - Present
                             <ul>
-                                <li>Leading the end-to-end implementation of a PowerApps application focused ontracking Patient Referrals to Mental Health programs leveraging the Power Platform,specifically Power Apps, Power Automate, Data Verse and Dataflow to architect andimplement a seamlessly integrated tracking system with best coding standards.</li>
-                                <li>Collaborating with the executive director and senior directors to create an innovativePowerApps application for problem-solution matching, using an agile approach togather feedback and make iterative improvements.</li>
-                                <li>Developing, enhancing and testing features within a patient tracking healthcare systemfor hospitals using SQL-based databases, C#, JavaScript, HTML, and CSS within theASP.Net MVC framework, directly contributing to system improvements.</li>
-                                <li>Ensured smooth operations in Azure DevOps by adding new fields and managing accessand permissions.</li>
+                                <li>Leading the end-to-end implementation of a PowerApps application focused on tracking Patient Referrals to Mental Health programs leveraging the Power Platform, specifically Power Apps, Power Automate, Data Verse and Dataflow to architect and implement a seamlessly integrated tracking system with best coding standards.</li>
+                                <li>Collaborating with the executive director and senior directors to create an innovative PowerApps application for problem-solution matching, using an agile approach to gather feedback and make iterative improvements.</li>
+                                <li>Developing, enhancing and testing features within a patient tracking healthcare system for hospitals using SQL-based databases, C#, JavaScript, HTML, and CSS within the ASP.Net MVC framework, directly contributing to system improvements.</li>
+                                <li>Ensured smooth operations in Azure DevOps by adding new fields and managing access and permissions.</li>
                             </ul>
                         <b>Developer (Co-op/Casual),</b> Fraser Health Authority<br/>
                         Sep 2021 - Apr 2023
                             <ul>
-                                <li>Leveraged Agile methodology to drive continuous improvement and effectivelymanage project organization.</li>
-                                <li>Ensured the reliability and functionality of new or enhanced features throughcomprehensive testing, promptly resolving bugs and issues.</li>
-                                <li>Assisted in development of new features in a healthcare application using VisualStudio IDE and ASP.NET MVC framework, delivering effective solutions to addresscritical industry requirements.</li>
-                                <li>Cultivated strong relationships and fostered exceptional collaboration among teammembers.</li>
+                                <li>Leveraged Agile methodology to drive continuous improvement and effectively manage project organization.</li>
+                                <li>Ensured the reliability and functionality of new or enhanced features through comprehensive testing, promptly resolving bugs and issues.</li>
+                                <li>Assisted in development of new features in a healthcare application using Visual Studio IDE and ASP.NET MVC framework, delivering effective solutions to address critical industry requirements.</li>
+                                <li>Cultivated strong relationships and fostered exceptional collaboration among team members.</li>
                             </ul>
                         <b>High School Tutor,</b> Simon Fraser University <br/>
                         Jan 2018 – Aug 2021
                             <ul>
-                                <li>Collaborated closely with a team of three tutors to provide comprehensive support tostudents, helping them gain a deeper understanding of targeted weak areas withinspecific subjects or the subject as a whole.</li>
-                                <li>Took charge of planning and orchestrating engaging literacy and numeracy activitiesfor a group of up to 20 students, fostering their academic growth and inspiringstudents to learn.</li>
+                                <li>Collaborated closely with a team of three tutors to provide comprehensive support to students, helping them gain a deeper understanding of targeted weak areas within specific subjects or the subject as a whole.</li>
+                                <li>Took charge of planning and orchestrating engaging literacy and numeracy activities for a group of up to 20 students, fostering their academic growth and inspiring students to learn.</li>
                             </ul>
                     </BoxContainer>
                 </AltContainer>
