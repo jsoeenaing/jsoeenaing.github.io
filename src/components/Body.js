@@ -44,7 +44,7 @@ export function Body() {
                         <b>High School Tutor,</b> Simon Fraser University <br/>
                         Jan 2018 – Aug 2021
                             <ul>
-                                <li>ApplicationsCollaborated closely with a team of three tutors to provide comprehensive support tostudents, helping them gain a deeper understanding of targeted weak areas withinspecific subjects or the subject as a whole.</li>
+                                <li>Collaborated closely with a team of three tutors to provide comprehensive support tostudents, helping them gain a deeper understanding of targeted weak areas withinspecific subjects or the subject as a whole.</li>
                                 <li>Took charge of planning and orchestrating engaging literacy and numeracy activitiesfor a group of up to 20 students, fostering their academic growth and inspiringstudents to learn.</li>
                             </ul>
                     </BoxContainer>
